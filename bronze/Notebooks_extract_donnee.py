@@ -19,17 +19,6 @@
 # COMMAND ----------
 
 path = "/Volumes/databricks_gaelle/default/donnees_api/ent_comm_detail.csv"
-df = (
-    spark.read
-    .option("header", True)
-    .option("inferSchema", True)
-    .option("delimiter", ";")
-    .csv(path))
-display(df)
-df.printSchema()
-print("Nombre de lignes :", df.count())
-
-
 
 
 ### "test de push"
