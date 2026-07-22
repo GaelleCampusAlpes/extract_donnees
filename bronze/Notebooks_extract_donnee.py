@@ -19,6 +19,4 @@
 # COMMAND ----------
 
 path = "/Volumes/databricks_gaelle/default/donnees_api/ent_comm_detail.csv"
-
-
-### "connexion"
+### " test connexion"
