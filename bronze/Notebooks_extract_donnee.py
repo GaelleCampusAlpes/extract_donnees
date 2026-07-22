@@ -1,4 +1,8 @@
 # Databricks notebook source
+# /// script
+# [tool.databricks.environment]
+# environment_version = "5"
+# ///
 # MAGIC %md
 # MAGIC Notebook extract de données databricks 
 
@@ -24,3 +28,8 @@ df = (
 display(df)
 df.printSchema()
 print("Nombre de lignes :", df.count())
+
+
+
+
+### "test de push"
